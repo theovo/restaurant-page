@@ -1,1 +1,2 @@
-# restaurant-page
+- Use DOM manipulation to dynamically render a webpage
+- Use JavaScript alone to generate the entire contents of the website

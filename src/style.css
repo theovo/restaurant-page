@@ -1,0 +1,53 @@
+/* USING ALTERNATE BOX MODEL */
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: red; */
+}
+
+/* //////////////////////////////////////////////////////////////////// */
+
+header {
+    width: min(100%, 960px);
+
+    /* background-color: pink; */
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+    /* background-color: lightgreen; */
+}
+
+button.active {
+    background-color: lightblue;
+}
+
+h1 {
+    font-size: 3.2rem;
+}
+
+/* //////////////////////////////////////////////////////////////////// */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: lightblue;
+}
+
+img.restaurant {
+    width: min(100vw, 960px);
+    flex-grow: 1;
+}
+
+p.intro {
+    max-width: 800px;
+    text-align: center;
+}
